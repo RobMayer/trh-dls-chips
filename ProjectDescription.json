@@ -3,7 +3,7 @@
   "DLSVersion_LastSaved": "2.1.0",
   "DLSVersion_EarliestCompatible": "2.0.0",
   "CreationTime": "2025-04-13T01:57:22.343-04:00",
-  "LastSaveTime": "2025-04-16T01:31:23.047-04:00",
+  "LastSaveTime": "2025-04-16T04:08:32.920-04:00",
   "Prefs_MainPinNamesDisplayMode": 0,
   "Prefs_ChipPinNamesDisplayMode": 1,
   "Prefs_SimPaused": false,
@@ -124,7 +124,12 @@
     "n#1",
     "n#2",
     "n#3",
-    "n#4"
+    "n#4",
+    "BiSHIFT-4b",
+    "BiSHIFT-1n",
+    "BiSHIFT-1w",
+    "BiSHIFT+1n",
+    "BiSHIFT+1w"
   ],
   "StarredList":[
     {
@@ -174,6 +179,26 @@
     {
       "Name":"CTRL",
       "IsCollection":true
+    },
+    {
+      "Name":"BiSHIFT-4b",
+      "IsCollection":false
+    },
+    {
+      "Name":"BiSHIFT-1n",
+      "IsCollection":false
+    },
+    {
+      "Name":"BiSHIFT-1w",
+      "IsCollection":false
+    },
+    {
+      "Name":"BiSHIFT+1n",
+      "IsCollection":false
+    },
+    {
+      "Name":"BiSHIFT+1w",
+      "IsCollection":false
     }
   ],
   "ChipCollections":[
@@ -228,7 +253,7 @@
       "Name":"LOGIC+"
     },
     {
-      "Chips":["ADDER-1b","ADDER-1n","ADDER-1w","ALU-1n","ALU-1w","COUNTER-4b","COUNTER-1n","COUNTER-8b","COUNTER-1w","BiCOUNTER+1b"],
+      "Chips":["ADDER-1b","ADDER-1n","ADDER-1w","ALU-1n","ALU-1w","COUNTER-4b","COUNTER-1n","COUNTER-8b","COUNTER-1w","BiCOUNTER+1b","BiSHIFT-4b","BiSHIFT-1n","BiSHIFT-1w","BiSHIFT+1n","BiSHIFT+1w"],
       "IsToggledOpen":true,
       "Name":"MATH"
     },
