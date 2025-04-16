@@ -3,7 +3,7 @@
   "DLSVersion_LastSaved": "2.1.0",
   "DLSVersion_EarliestCompatible": "2.0.0",
   "CreationTime": "2025-04-13T01:57:22.343-04:00",
-  "LastSaveTime": "2025-04-16T00:44:50.997-04:00",
+  "LastSaveTime": "2025-04-16T01:06:28.591-04:00",
   "Prefs_MainPinNamesDisplayMode": 0,
   "Prefs_ChipPinNamesDisplayMode": 1,
   "Prefs_SimPaused": false,
@@ -56,12 +56,12 @@
     "MS+FLIPFLOP",
     "COUNTER-4b",
     "SNK-ALL",
-    "SRC-1b",
-    "SRC-1n",
-    "SRC-1w",
-    "SNK-1b",
-    "SNK-1n",
-    "SNK-1w",
+    "SRC1b",
+    "SRC1n",
+    "SRC1w",
+    "SNK1b",
+    "SNK1n",
+    "SNK1w",
     "MUX-2-1n",
     "MUX-2-1w",
     "D+LATCH",
@@ -183,8 +183,8 @@
       "Name":"BASIC"
     },
     {
-      "Chips":["IN-1","IN-4","IN-8","OUT-1","OUT-4","OUT-8","BUS-1","BUS-4","BUS-8","SRC-1b","SNK-1b","SRC-1n","SNK-1n","SRC-1w","SNK-1w","SRC-ALL","SNK-ALL"],
-      "IsToggledOpen":false,
+      "Chips":["IN-1","IN-4","IN-8","OUT-1","OUT-4","OUT-8","BUS-1","BUS-4","BUS-8","SRC1b","SNK1b","SRC1n","SNK1n","SRC1w","SNK1w","SRC-ALL","SNK-ALL"],
+      "IsToggledOpen":true,
       "Name":"I/O"
     },
     {
