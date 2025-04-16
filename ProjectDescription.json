@@ -3,7 +3,7 @@
   "DLSVersion_LastSaved": "2.1.0",
   "DLSVersion_EarliestCompatible": "2.0.0",
   "CreationTime": "2025-04-13T01:57:22.343-04:00",
-  "LastSaveTime": "2025-04-16T04:08:32.920-04:00",
+  "LastSaveTime": "2025-04-16T04:09:40.075-04:00",
   "Prefs_MainPinNamesDisplayMode": 0,
   "Prefs_ChipPinNamesDisplayMode": 1,
   "Prefs_SimPaused": false,
@@ -179,26 +179,6 @@
     {
       "Name":"CTRL",
       "IsCollection":true
-    },
-    {
-      "Name":"BiSHIFT-4b",
-      "IsCollection":false
-    },
-    {
-      "Name":"BiSHIFT-1n",
-      "IsCollection":false
-    },
-    {
-      "Name":"BiSHIFT-1w",
-      "IsCollection":false
-    },
-    {
-      "Name":"BiSHIFT+1n",
-      "IsCollection":false
-    },
-    {
-      "Name":"BiSHIFT+1w",
-      "IsCollection":false
     }
   ],
   "ChipCollections":[
