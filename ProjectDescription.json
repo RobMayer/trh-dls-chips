@@ -3,7 +3,7 @@
   "DLSVersion_LastSaved": "2.1.0",
   "DLSVersion_EarliestCompatible": "2.0.0",
   "CreationTime": "2025-04-13T01:57:22.343-04:00",
-  "LastSaveTime": "2025-04-15T23:13:12.642-04:00",
+  "LastSaveTime": "2025-04-16T00:44:50.997-04:00",
   "Prefs_MainPinNamesDisplayMode": 0,
   "Prefs_ChipPinNamesDisplayMode": 1,
   "Prefs_SimPaused": false,
@@ -111,7 +111,20 @@
     "XOR-1n",
     "XOR-1w",
     "XNOR-1w",
-    "XNOR-1n"
+    "XNOR-1n",
+    "-WIP-2",
+    "w#1",
+    "w#2",
+    "w#3",
+    "w#4",
+    "w#5",
+    "w#6",
+    "w#7",
+    "w#8",
+    "n#1",
+    "n#2",
+    "n#3",
+    "n#4"
   ],
   "StarredList":[
     {
@@ -175,8 +188,13 @@
       "Name":"I/O"
     },
     {
-      "Chips":["1-4BIT","4-1BIT","1-8BIT","8-1BIT","4-8BIT","8-4BIT"],
-      "IsToggledOpen":false,
+      "Chips":["-WIP-","-WIP-2"],
+      "IsToggledOpen":true,
+      "Name":"OTHER"
+    },
+    {
+      "Chips":["n#1","n#2","n#3","n#4","w#1","w#2","w#3","w#4","w#5","w#6","w#7","w#8","1-4BIT","4-1BIT","1-8BIT","8-1BIT","4-8BIT","8-4BIT"],
+      "IsToggledOpen":true,
       "Name":"B/O"
     },
     {
@@ -238,11 +256,6 @@
       "Chips":["CLOCK+"],
       "IsToggledOpen":false,
       "Name":"CTRL"
-    },
-    {
-      "Chips":["-WIP-"],
-      "IsToggledOpen":false,
-      "Name":"OTHER"
     }
   ]
 }

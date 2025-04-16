@@ -18,6 +18,15 @@ const COLORS_BY_COLLECTION: { targets: string[]; colour: Colour }[] = [
         },
     },
     {
+        targets: ["B/O"],
+        colour: {
+            r: 0.25,
+            g: 0.25,
+            b: 0.25,
+            a: 1,
+        },
+    },
+    {
         targets: ["LOGIC", "LOGIC+"],
         colour: {
             r: 0.259999961,
