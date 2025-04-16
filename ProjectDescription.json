@@ -3,7 +3,7 @@
   "DLSVersion_LastSaved": "2.1.0",
   "DLSVersion_EarliestCompatible": "2.0.0",
   "CreationTime": "2025-04-13T01:57:22.343-04:00",
-  "LastSaveTime": "2025-04-16T14:33:28.903-04:00",
+  "LastSaveTime": "2025-04-16T17:50:09.139-04:00",
   "Prefs_MainPinNamesDisplayMode": 0,
   "Prefs_ChipPinNamesDisplayMode": 1,
   "Prefs_SimPaused": false,
@@ -140,7 +140,18 @@
     "DeMUX+3-8w",
     "MUX+2-1b",
     "MUX+2-1n",
-    "MUX+2-1w"
+    "MUX+2-1w",
+    "-WIP-3",
+    "aREG-1n",
+    "sREG-1b",
+    "sREG-1n",
+    "sREG-1w",
+    "aREG-1w",
+    "sREG+1b",
+    "aREG+1n",
+    "aREG+1w",
+    "sREG+1w",
+    "sREG+1n"
   ],
   "StarredList":[
     {
@@ -194,6 +205,10 @@
     {
       "Name":"SIG",
       "IsCollection":true
+    },
+    {
+      "Name":"-WIP-3",
+      "IsCollection":false
     }
   ],
   "ChipCollections":[
@@ -258,8 +273,13 @@
       "Name":"STATE"
     },
     {
-      "Chips":["REGISTER-1b","REGISTER-1n","REGISTER+1n","REGISTER-1w","REGISTER+1w","REGISTER+2w"],
+      "Chips":["-WIP-2","-WIP-","-WIP-3"],
       "IsToggledOpen":false,
+      "Name":"OTHER"
+    },
+    {
+      "Chips":["aREG-1n","aREG+1n","aREG-1w","aREG+1w","sREG-1b","sREG+1b","sREG-1n","sREG+1n","sREG-1w","sREG+1w","REGISTER-1b","REGISTER-1n","REGISTER+1n","REGISTER-1w","REGISTER+1w","REGISTER+2w"],
+      "IsToggledOpen":true,
       "Name":"STATE+"
     },
     {
@@ -271,11 +291,6 @@
       "Chips":["KEY","CLOCK","CLOCK+"],
       "IsToggledOpen":false,
       "Name":"SIG"
-    },
-    {
-      "Chips":["-WIP-2","-WIP-"],
-      "IsToggledOpen":false,
-      "Name":"OTHER"
     }
   ]
 }
