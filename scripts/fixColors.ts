@@ -27,11 +27,29 @@ const COLORS_BY_COLLECTION: { targets: string[]; colour: Colour }[] = [
         },
     },
     {
-        targets: ["LOGIC", "LOGIC+"],
+        targets: ["PLEX"],
         colour: {
             r: 0.259999961,
             g: 0.435298175,
             b: 0.73,
+            a: 1,
+        },
+    },
+    {
+        targets: ["CODEC"],
+        colour: {
+            r: 0.259999961,
+            g: 0.435298175,
+            b: 0.73,
+            a: 1,
+        },
+    },
+    {
+        targets: ["LOGIC"],
+        colour: {
+            r: 0.731022358,
+            g: 0.6246595,
+            b: 0.22488375,
             a: 1,
         },
     },
@@ -72,7 +90,7 @@ const COLORS_BY_COLLECTION: { targets: string[]; colour: Colour }[] = [
         },
     },
     {
-        targets: ["CTRL"],
+        targets: ["SIG"],
         colour: {
             r: 0.7942815,
             g: 0.7942815,

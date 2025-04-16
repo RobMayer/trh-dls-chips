@@ -3,7 +3,7 @@
   "DLSVersion_LastSaved": "2.1.0",
   "DLSVersion_EarliestCompatible": "2.0.0",
   "CreationTime": "2025-04-13T01:57:22.343-04:00",
-  "LastSaveTime": "2025-04-16T04:09:40.075-04:00",
+  "LastSaveTime": "2025-04-16T14:33:28.903-04:00",
   "Prefs_MainPinNamesDisplayMode": 0,
   "Prefs_ChipPinNamesDisplayMode": 1,
   "Prefs_SimPaused": false,
@@ -129,7 +129,18 @@
     "BiSHIFT-1n",
     "BiSHIFT-1w",
     "BiSHIFT+1n",
-    "BiSHIFT+1w"
+    "BiSHIFT+1w",
+    "DeMUX-2-4n",
+    "DeMUX+2-4n",
+    "DeMUX+3-8n",
+    "DeMUX-3-8n",
+    "DeMUX-2-4w",
+    "DeMUX+2-4w",
+    "DeMUX-3-8w",
+    "DeMUX+3-8w",
+    "MUX+2-1b",
+    "MUX+2-1n",
+    "MUX+2-1w"
   ],
   "StarredList":[
     {
@@ -153,11 +164,15 @@
       "IsCollection":true
     },
     {
-      "Name":"LOGIC",
+      "Name":"PLEX",
       "IsCollection":true
     },
     {
-      "Name":"LOGIC+",
+      "Name":"CODEC",
+      "IsCollection":true
+    },
+    {
+      "Name":"LOGIC",
       "IsCollection":true
     },
     {
@@ -177,16 +192,11 @@
       "IsCollection":true
     },
     {
-      "Name":"CTRL",
+      "Name":"SIG",
       "IsCollection":true
     }
   ],
   "ChipCollections":[
-    {
-      "Chips":["CLOCK","KEY","3-STATE BUFFER"],
-      "IsToggledOpen":false,
-      "Name":"BASIC"
-    },
     {
       "Chips":["IN-1","IN-4","IN-8","OUT-1","OUT-4","OUT-8","BUS-1","BUS-4","BUS-8","SRC1b","SNK1b","SRC1n","SNK1n","SRC1w","SNK1w","SRC-ALL","SNK-ALL"],
       "IsToggledOpen":false,
@@ -223,18 +233,23 @@
       "Name":"GATES++"
     },
     {
-      "Chips":["MUX-2-1b","MUX-2-1n","MUX-2-1w","DCDR-2b4b","DCDR+2b4b","DCDR-2b1n","DCDR+2b1n","DCDR-3b8b","DCDR+3b8b","DCDR-3b1w","DCDR+3b1w"],
+      "Chips":["MUX-2-1b","MUX+2-1b","MUX-2-1n","MUX+2-1n","MUX-2-1w","MUX+2-1w","DeMUX-2-4n","DeMUX+2-4n","DeMUX-2-4w","DeMUX+2-4w","DeMUX-3-8n","DeMUX+3-8n","DeMUX-3-8w","DeMUX+3-8w"],
       "IsToggledOpen":false,
-      "Name":"LOGIC"
+      "Name":"PLEX"
+    },
+    {
+      "Chips":["DCDR-2b4b","DCDR+2b4b","DCDR-2b1n","DCDR+2b1n","DCDR-3b8b","DCDR+3b8b","DCDR-3b1w","DCDR+3b1w"],
+      "IsToggledOpen":false,
+      "Name":"CODEC"
     },
     {
       "Chips":["COMPARE-1n","COMPARE-1w","SELECT-1n","SELECT-1w","FLIP-1n","FLIP-1w","SYNC-1n","SYNC-1w","SETCLEAR-1n","SETCLEAR-1w"],
       "IsToggledOpen":false,
-      "Name":"LOGIC+"
+      "Name":"LOGIC"
     },
     {
       "Chips":["ADDER-1b","ADDER-1n","ADDER-1w","ALU-1n","ALU-1w","COUNTER-4b","COUNTER-1n","COUNTER-8b","COUNTER-1w","BiCOUNTER+1b","BiSHIFT-4b","BiSHIFT-1n","BiSHIFT-1w","BiSHIFT+1n","BiSHIFT+1w"],
-      "IsToggledOpen":true,
+      "IsToggledOpen":false,
       "Name":"MATH"
     },
     {
@@ -248,18 +263,18 @@
       "Name":"STATE+"
     },
     {
-      "Chips":["3SBUF-1n","3SBUF-1w","3SBUF-2w","XFER-1b","XFER-1n","XFER-1w"],
+      "Chips":["3-STATE BUFFER","3SBUF-1n","3SBUF-1w","3SBUF-2w","XFER-1b","XFER-1n","XFER-1w"],
       "IsToggledOpen":false,
       "Name":"COMM"
     },
     {
-      "Chips":["CLOCK+"],
+      "Chips":["KEY","CLOCK","CLOCK+"],
       "IsToggledOpen":false,
-      "Name":"CTRL"
+      "Name":"SIG"
     },
     {
-      "Chips":["-WIP-","-WIP-2"],
-      "IsToggledOpen":true,
+      "Chips":["-WIP-2","-WIP-"],
+      "IsToggledOpen":false,
       "Name":"OTHER"
     }
   ]
