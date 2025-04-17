@@ -1,9 +1,9 @@
 {
-  "ProjectName": "Sandbox",
+  "ProjectName": "trh-dls-chips",
   "DLSVersion_LastSaved": "2.1.0",
   "DLSVersion_EarliestCompatible": "2.0.0",
   "CreationTime": "2025-04-13T01:57:22.343-04:00",
-  "LastSaveTime": "2025-04-16T19:37:05.470-04:00",
+  "LastSaveTime": "2025-04-16T19:53:51.330-04:00",
   "Prefs_MainPinNamesDisplayMode": 0,
   "Prefs_ChipPinNamesDisplayMode": 1,
   "Prefs_SimPaused": false,
@@ -207,18 +207,6 @@
     {
       "Name":"SIG",
       "IsCollection":true
-    },
-    {
-      "Name":"-WIP-3",
-      "IsCollection":false
-    },
-    {
-      "Name":"SYNC-1b",
-      "IsCollection":false
-    },
-    {
-      "Name":"SYNC+1b",
-      "IsCollection":false
     }
   ],
   "ChipCollections":[
