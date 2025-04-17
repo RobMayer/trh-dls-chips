@@ -113,7 +113,7 @@
         "x":1.6725,
         "y":2.375
       },
-      "OutputPinColourInfo":[{"PinColour":0,"PinID":1651428506},{"PinColour":0,"PinID":1762563987},{"PinColour":0,"PinID":1062976604}],
+      "OutputPinColourInfo":[{"PinColour":0,"PinID":1651428506},{"PinColour":3,"PinID":1762563987},{"PinColour":2,"PinID":1062976604}],
       "InternalData":null
     },
     {
@@ -124,7 +124,7 @@
         "x":1.6725,
         "y":3.625
       },
-      "OutputPinColourInfo":[{"PinColour":0,"PinID":1651428506},{"PinColour":0,"PinID":1762563987},{"PinColour":0,"PinID":1062976604}],
+      "OutputPinColourInfo":[{"PinColour":0,"PinID":1651428506},{"PinColour":3,"PinID":1762563987},{"PinColour":2,"PinID":1062976604}],
       "InternalData":null
     },
     {
@@ -135,7 +135,7 @@
         "x":1.6725,
         "y":4.875
       },
-      "OutputPinColourInfo":[{"PinColour":0,"PinID":1651428506},{"PinColour":0,"PinID":1762563987},{"PinColour":0,"PinID":1062976604}],
+      "OutputPinColourInfo":[{"PinColour":0,"PinID":1651428506},{"PinColour":3,"PinID":1762563987},{"PinColour":2,"PinID":1062976604}],
       "InternalData":null
     },
     {
@@ -146,7 +146,7 @@
         "x":1.6725,
         "y":6.125
       },
-      "OutputPinColourInfo":[{"PinColour":0,"PinID":1651428506},{"PinColour":0,"PinID":1762563987},{"PinColour":0,"PinID":1062976604}],
+      "OutputPinColourInfo":[{"PinColour":0,"PinID":1651428506},{"PinColour":3,"PinID":1762563987},{"PinColour":2,"PinID":1062976604}],
       "InternalData":null
     }
   ],
