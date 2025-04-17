@@ -1,14 +1,14 @@
 {
-  "ProjectName": "trh-dls-chips",
+  "ProjectName": "Sandbox",
   "DLSVersion_LastSaved": "2.1.0",
   "DLSVersion_EarliestCompatible": "2.0.0",
   "CreationTime": "2025-04-13T01:57:22.343-04:00",
-  "LastSaveTime": "2025-04-16T19:53:51.330-04:00",
+  "LastSaveTime": "2025-04-17T04:22:23.694-04:00",
   "Prefs_MainPinNamesDisplayMode": 0,
   "Prefs_ChipPinNamesDisplayMode": 1,
   "Prefs_SimPaused": false,
   "Prefs_SimTargetStepsPerSecond": 1000,
-  "Prefs_SimStepsPerClockTick": 250,
+  "Prefs_SimStepsPerClockTick": 300,
   "AllCustomChipNames":[
     "NOT",
     "AND",
@@ -48,7 +48,6 @@
     "MS-FLIPFLOP",
     "SRC-ALL",
     "CLOCK+",
-    "-WIP-",
     "AND-3b",
     "NAND-3b",
     "JK+FLIPFLOP",
@@ -112,7 +111,6 @@
     "XOR-1w",
     "XNOR-1w",
     "XNOR-1n",
-    "-WIP-2",
     "w#1",
     "w#2",
     "w#3",
@@ -141,7 +139,6 @@
     "MUX+2-1b",
     "MUX+2-1n",
     "MUX+2-1w",
-    "-WIP-3",
     "aREG-1n",
     "sREG-1b",
     "sREG-1n",
@@ -153,7 +150,12 @@
     "sREG+1w",
     "sREG+1n",
     "SYNC-1b",
-    "SYNC+1b"
+    "SYNC+1b",
+    "bicounter-wip",
+    "aBiCOUNTER-1b",
+    "aBiCOUNTER+1b",
+    "wip3",
+    "wip3-2"
   ],
   "StarredList":[
     {
@@ -207,6 +209,18 @@
     {
       "Name":"SIG",
       "IsCollection":true
+    },
+    {
+      "Name":"bicounter-wip",
+      "IsCollection":false
+    },
+    {
+      "Name":"wip3",
+      "IsCollection":false
+    },
+    {
+      "Name":"wip3-2",
+      "IsCollection":false
     }
   ],
   "ChipCollections":[
@@ -257,12 +271,12 @@
     },
     {
       "Chips":["COMPARE-1n","COMPARE-1w","SELECT-1n","SELECT-1w","FLIP-1n","FLIP-1w","SYNC-1n","SYNC-1w","SETCLEAR-1n","SETCLEAR-1w"],
-      "IsToggledOpen":true,
+      "IsToggledOpen":false,
       "Name":"LOGIC"
     },
     {
-      "Chips":["ADDER-1b","ADDER-1n","ADDER-1w","ALU-1n","ALU-1w","COUNTER-4b","COUNTER-1n","COUNTER-8b","COUNTER-1w","BiCOUNTER+1b","BiSHIFT-4b","BiSHIFT-1n","BiSHIFT-1w","BiSHIFT+1n","BiSHIFT+1w"],
-      "IsToggledOpen":false,
+      "Chips":["ADDER-1b","ADDER-1n","ADDER-1w","ALU-1n","ALU-1w","COUNTER-4b","COUNTER-1n","COUNTER-8b","COUNTER-1w","BiCOUNTER+1b","BiSHIFT-4b","BiSHIFT-1n","BiSHIFT-1w","BiSHIFT+1n","BiSHIFT+1w","aBiCOUNTER-1b","aBiCOUNTER+1b"],
+      "IsToggledOpen":true,
       "Name":"MATH"
     },
     {
@@ -271,7 +285,7 @@
       "Name":"STATE"
     },
     {
-      "Chips":["-WIP-2","-WIP-","-WIP-3"],
+      "Chips":["bicounter-wip","wip3"],
       "IsToggledOpen":true,
       "Name":"OTHER"
     },
@@ -287,7 +301,7 @@
     },
     {
       "Chips":["KEY","CLOCK","CLOCK+","SYNC-1b","SYNC+1b"],
-      "IsToggledOpen":true,
+      "IsToggledOpen":false,
       "Name":"SIG"
     }
   ]
